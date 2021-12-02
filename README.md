@@ -1,7 +1,7 @@
 # BRACNAV
 BRACNAV (BRAc Copy Number Alteration Viewer)  is a new tool for calling copy number variations (CNVs) in BRCA1 and BRCA2 genes. 
 # Installation
-## Installation from zip file
+## Installation from .zip file
 * Download [last BRACNAV release](https://github.com/aakechin/BRACNAV.zip):
 * Unzip:
  ```
