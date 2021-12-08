@@ -2,7 +2,7 @@
 BRACNAV (BRAc Copy Number Alteration Viewer)  is a new tool for calling copy number variations (CNVs) in BRCA1 and BRCA2 genes. 
 ## Installation
 ### Installation from .zip file
-* Download [last BRACNAV release](https://github.com/aakechin/BRACNAV.zip):
+* Download [last BRACNAV release](https://github.com/aakechin/BRACNAV/releases/tag/v1.0):
 * Unzip:
  ```
 unzip BRACNAV.zip
@@ -19,7 +19,7 @@ Run executable file **BRACNAV.exe**
 ### Ubuntu
 To use graphical interface run:
 ```
-python3 main_BRACNAV.py
+main_BRACNAV
 ```
 or in command-line version:
 ```
@@ -33,9 +33,9 @@ BRACNAV can be used with graphical interface or in command-line version. As an i
 ### Input file format
 * TSV-file with amplicon coverages should have following columns: 
 
-    Patient#, Patient_ID, Barcodes, Median_Coverage, Number_<30, amplicon#1...
+    Patient#, amplicon#1...
                    
-*Patient_ID, Barcodes, Median_Coverage, Number_<30 are optional columns*
+*Patient_ID, Barcodes, Median_Coverage, Number_<30 are optional columns between Patient# and amplicon#1*
 ### Advanced options
 * `-ref` Reference version (hg19 or hg38). BRCA1 and BRCA2 genome coordinates depend on this version (default: hg19).
 
